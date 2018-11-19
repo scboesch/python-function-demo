@@ -31,7 +31,7 @@ Resources:
         GetEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /{proxy+}
             Method: get
         PostEvent:
           Type: Api
